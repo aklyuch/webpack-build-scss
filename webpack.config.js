@@ -68,7 +68,7 @@ module.exports = env => ({
         }),
         new htmlWebpackPlugin({
             template: path.resolve(__dirname, 'src/index.hbs'),
-            title: 'ВП1 Геоотзыв'
+            title: ''
         })
     ],
 });
