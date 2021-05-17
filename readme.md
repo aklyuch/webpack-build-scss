@@ -4,7 +4,7 @@
 * handlebars
 
 ## Системные требования
-* node v12 (14-я версия ломает chokidar)
+* node.js
 * npm
 
 ## Установка
@@ -14,5 +14,5 @@ npm install
 ```
 
 ## Запуск
-* npm run dev - сервер для разработки, поддержка scss + sourceMap
-* npm run build - сборка в папку dist 
+* npm run dev - сервер для разработки, поддержка scss + sourceMap + шаблонизатор handelbars
+* npm run build - сборка минифицированного кода в папку dist 
