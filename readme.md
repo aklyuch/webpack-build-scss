@@ -14,9 +14,9 @@ npm install
 ```
 
 Все статичные элементы, которые не обрабатываются вебпаком, 
-складываются в папку src/assets и добавляются в правило переноса в webpack.config.build.js
+складываются в папку src/assets и добавляются в правило переноса в webpack.config.build.js, в patterns плагина CopyWebpackPlugin.
 
-Dev server ссылается на эту папку (при желании можно поменять в настройке webpack.config.json)
+Dev server ссылается на эту папку (при желании можно поменять в настройках webpack.config.json)
 
 ## Запуск
 * npm run dev - сервер для разработки, поддержка scss + sourceMap + шаблонизатор handelbars
