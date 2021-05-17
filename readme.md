@@ -1,4 +1,4 @@
-#Минимальный набор для webpack
+# Минимальный набор для webpack
 * webpack
 * scss
 * handlebars
