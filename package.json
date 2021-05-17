@@ -1,11 +1,11 @@
 {
-  "name": "wp1",
+  "name": "webpack-build-scss-handlebars",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack --env production",
-    "dev": "webpack serve --open",
+    "build": "webpack --config webpack.config.build.js",
+    "dev": "webpack serve --hot --inline --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.4",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^5.3.1",

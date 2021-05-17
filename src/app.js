@@ -1,4 +1,4 @@
 import './scss/main.scss'
-import { mapInit } from './js/start'
+import { start } from './js/start'
 
 window.onload = start()
